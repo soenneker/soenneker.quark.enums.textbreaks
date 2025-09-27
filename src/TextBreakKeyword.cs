@@ -6,7 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// An HTML CSS keyword set in .NET enumeration form
 /// </summary>
 [Intellenum<string>]
-public partial class TextBreakKeywordKeyword
+public partial class TextBreakKeyword
 {
     public static readonly TextBreakKeyword Enable = new("enable");
     public static readonly TextBreakKeyword Disable = new("disable");
