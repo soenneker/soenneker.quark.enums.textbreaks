@@ -1,11 +1,11 @@
-using Intellenum;
+using Soenneker.Gen.EnumValues;
 
 namespace Soenneker.Quark.Enums;
 
 /// <summary>
 /// An HTML CSS keyword set in .NET enumeration form
 /// </summary>
-[Intellenum<string>]
+[EnumValue<string>]
 public partial class TextBreakKeyword
 {
     public static readonly TextBreakKeyword Enable = new("enable");
